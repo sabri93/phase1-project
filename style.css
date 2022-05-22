@@ -1,0 +1,110 @@
+body{
+    background-image: url("https://img.freepik.com/free-vector/mandala-illustration_53876-75290.jpg?w=2000");
+    background-size:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EEEEEE;
+    font-family: 'Calistoga', cursive;
+}
+form{
+    
+    margin-top: 10px;
+    background-color: rgba(255,255,255,0.7);
+    padding: 60px 60px;
+    border-radius: 10px;
+    min-width: 300px;
+    min-height: 200px;
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,0.3);
+}
+form h1{
+    color:	#e7af14;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+form .choose{
+    text-align: center;
+}
+form .inputs{
+    display: flex;
+    flex-direction: column;
+}
+form .inputs input[type="number"]{
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: #EEEEEE;
+    margin-bottom: 40px;
+    outline: none;
+    box-shadow: 0 8px 15px 0 rgba(0,0,0,0.2);
+}
+
+form input[type="submit"]{
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    color: rgb(22, 19, 19);
+    background-color:rgb(255, 177, 75);
+    
+    
+    
+    cursor: pointer;
+}
+
+form input[type="submit"]:active {
+    box-shadow: 
+      7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+    transform: translateY(4px);
+    background-color:rgb(160, 92, 4);
+    
+
+}
+
+
+
+
+.container {
+
+    margin : 0 auto;
+    padding: 5px 10px;
+    box-shadow: 0 8px 10px rgb(244, 192, 124);
+    transition: 0.3s;
+    border-radius: 5px; 
+    font-size: 20px;
+    text-align: center;
+  
+    
+}
+
+.container:hover {
+    box-shadow: 0 8px 15px 0 rgba(0,0,0,0.2);
+  }
+
+
+#copy {
+    display:block;
+    float: right;
+    border: none;
+    box-shadow: 0 8px 10px rgb(0, 0, 0);
+    transition: 0.3s;
+    border-radius: 5px; 
+    font-size: 10px;
+    background-color:rgb(237, 209, 173);
+    
+
+
+}
+
+#delete{
+    border: none;
+    box-shadow: 0 8px 10px rgb(0, 0, 0);
+    transition: 0.3s;
+    border-radius: 5px; 
+    font-size: 10px;
+    background-color:rgb(237, 209, 173);
+    
+}
+
